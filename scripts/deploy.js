@@ -8,13 +8,13 @@ require('dotenv').config();
 const hre = require("hardhat");
 
 async function main() {
-  const ZkMoon = await hre.ethers.getContractFactory("ZkMoon");
-  const zkMoon = await ZkMoon.deploy();
+  const QingLong = await hre.ethers.getContractFactory("QingLong");
+  const qingLong = await QingLong.deploy();
 
-  await zkMoon.deployed();
+  await qingLong.deployed();
 
   console.log(
-    `zkMoon deployed to ${zkMoon.address}`
+    `qingLong deployed to ${qingLong.address}`
   );
 }
 
