@@ -30,17 +30,17 @@ npx hardhat run scripts/deploy.js --network goerli
 ## Console
 deploy success: 
 ```
-zkMoon deployed to 0x53c567BE1dd4E7116A9Be8C364bE6C5edeC75432
+QingLong deployed to 0x7a79509c24309c5216fc12ea6cbe676ff01c46b7
 ```
 
 verifly contract success:
 ```
 Nothing to compile
 Successfully submitted source code for contract
-contracts/ZkMoon.sol:ZkMoon at 0x53c567BE1dd4E7116A9Be8C364bE6C5edeC75432
+contracts/QingLong.sol:QingLong at 0x7a79509c24309c5216fc12ea6cbe676ff01c46b7
 for verification on the block explorer. Waiting for verification result...
 
 Successfully verified contract ZkMoon on Etherscan.
-https://goerli.etherscan.io/address/0x53c567BE1dd4E7116A9Be8C364bE6C5edeC75432#code
+https://testnet.bscscan.com/address/0x7a79509c24309c5216fc12ea6cbe676ff01c46b7
 ```
 
