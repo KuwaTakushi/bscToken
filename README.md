@@ -1,4 +1,4 @@
-# BoneKing Token
+# BSC Token
 
 ## Environment
 
